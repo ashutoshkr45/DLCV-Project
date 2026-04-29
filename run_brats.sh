@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-DATA_BASE="../WSS-Interclass-Sep"
+DATA_BASE="."
 MODEL_OUT="MCT_Plus_BraTS_saved_models"
 CAM_OUT="MCTformer_Plus_BraTS_results"
 
