@@ -1,0 +1,17 @@
+# Datasets
+BraTSData_2d_images/
+VOCdevkit/
+
+# Weights
+*.pth
+
+# Cache and Outputs
+__pycache__/
+saved_model/
+MCTformer_results/
+DeiT_Base_saved_model_brats/
+DeiT_Base_MCTformer_results/
+*.csv
+!test.csv
+!train.csv
+!val.csv
