@@ -12,7 +12,7 @@ Download the folders and weights from the drive and place them in the root direc
 
 ```text
 DLCV-Project/
-├── BraTSData_2d_images/      # BraTS-2020 dataset images
+├── TrainingData_2d_images/      # BraTS-2020 dataset images
 ├── VOCdevkit/                # PASCAL VOC dataset
 ├── res38_cls.pth             # Pre-trained ResNet38 classification weights
 ├── train.csv / val.csv / test.csv
@@ -57,9 +57,9 @@ pip install numpy==1.26.4 scipy==1.10.1 scikit-learn==1.2.2
 
 Once the environment is adjusted, run the VOC pipeline in three sequential phases:
 ```bash
-bash run_mct_plus.sh   # 1. Train classifier and generate initial CAMs
-bash run_psa.sh        # 2. Refine pseudo-labels using Pixel Semantic Affinity
-bash run_seg.sh        # 3. Train final segmentation model (ResNet38)
+bash run_mct_plus.sh   # Train classifier and generate initial CAMs
+bash run_psa.sh        # Refine pseudo-labels using Pixel Semantic Affinity
+bash run_seg.sh        # Train final segmentation model (ResNet38)
 ```
 
 ## 🙏 Acknowledgements
