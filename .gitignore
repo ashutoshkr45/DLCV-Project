@@ -1,5 +1,5 @@
 # Datasets
-BraTSData_2d_images/
+TrainingData_2d_images/              # BraTS-2020
 VOCdevkit/
 
 # Weights
