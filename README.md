@@ -6,8 +6,8 @@ This repository contains the full implementation of my DS265 (Deep Learning for 
 ## 📥 Data and Weights Preparation
 Due to file size limits, the datasets and pre-trained classification weights are hosted externally. 
 
-**Download the required files here:** `<https://drive.google.com/drive/folders/1YYTPyc1X_kgTe81r7q--oxQnq34THsDL?usp=sharing>`
-{ @TAs: Ypu will require to use your IISc Google account to access this drive folder. }
+**Download the required files here:** `https://drive.google.com/drive/folders/1YYTPyc1X_kgTe81r7q--oxQnq34THsDL?usp=sharing`
+###### { @TAs: You will require to use your IISc Google account to access this drive folder. }
 
 Download the folders and weights from the drive and place them in the root directory. Before running any scripts, your project folder must look exactly like this:
 
